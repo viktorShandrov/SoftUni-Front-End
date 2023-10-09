@@ -11,10 +11,10 @@
   font-size: 30px;
   flex-basis: 120px;
 }
-#one{
+#box1{
   flex-shrink: 0;
-}#two{
+}#box2{
    flex-shrink: 1;
- }#tree{
+ }#box3{
      flex-shrink: 2;
   }
