@@ -1,0 +1,24 @@
+@media screen and (max-width:600px) {
+    .home-hero,
+    .home-cards-container
+    {
+        flex-direction:column;
+    }
+    .home-hero img{
+        order: -1;
+        width: 100%;
+    }
+    .home-features{
+        height: auto;
+    }
+    .home-stats{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+    .home-hero-text-container,
+    .home-heading-container,
+    .home-cards-container>*{
+        width: 100%;
+    }
+
+}
